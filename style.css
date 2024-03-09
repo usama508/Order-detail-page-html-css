@@ -1,0 +1,130 @@
+.main_product_card{
+    margin: 20px 0;
+    padding: 20px 0;
+    /* background-color: rgba(245, 238, 238, 0.902); */
+    box-shadow: 0px 1px 79px -58px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 79px -58px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 79px -58px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+.img_part {
+    text-align: center;
+}
+.img_part img{
+    width:250px;
+    height:250px;
+}
+.img_intro{
+    text-align: center;
+    padding: 20px 0;
+}
+.img_intro h5,.img_intro h3{
+    margin: 0;
+    text-align: center;
+}
+.btn_outer{
+    display: flex;
+    justify-content: center ;
+    padding: 30px 0;
+}
+.btn_outer .ext{
+    padding: 10px 25px;
+    background-color: rgb(35, 161, 211);
+    border:none ;
+    color: white;
+    margin-right:30px;
+    border-radius: 8px;
+}
+.btn_outer .ext:hover{
+    background-color: rgb(25, 128, 169);
+}
+.btn_outer .dlt{
+    padding: 10px 25px;
+    background-color: rgb(255, 59, 59);
+    border:none ;
+    color: white;
+    border-radius: 8px;
+}
+.btn_outer .dlt:hover{
+    background-color: rgb(211, 44, 44);
+}
+.card_btn h5{
+    text-align: left;
+}
+/* list page */
+.list_img img{
+width:100px;
+height:100px;
+}
+/* card sec*/
+/* body{
+    background-color: gray;
+} */
+.card1 {
+    margin-bottom: 1.875rem;
+    background-color: #fff;
+    transition: all .5s ease-in-out;
+    position: relative;
+    border: 0rem solid transparent;
+    border-radius: 1.25rem;
+    box-shadow: 0rem 0.3125rem 0.3125rem 0rem rgba(82, 63, 105, 0.05);
+    height: calc(100% - 30px);
+    box-shadow:rgba(0, 0, 0, 1.75) 0px 1px 13px -9px;
+    -webkit-box-shadow:rgba(0, 0, 0, 1.75) 0px 1px 13px -9px;
+    -moz-box-shadow:rgba(0, 0, 0, 1.75) 0px 1px 13px -9px;
+}
+.social-graph-wrapper {
+    text-align: center;
+    padding: 1rem 1.25rem 0.2rem  1.25rem;
+    position: relative;
+    color: #fff;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.social-graph-wrapper .s-icon {
+    font-size: 1.5rem;
+    position: relative;
+    padding: 0 0.625rem;
+    color: black;
+}
+.social-graph-wrapper img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+.billing_card_head{
+    font-size: 24px;
+}
+
+
+.billing_card_p{
+    font-weight: 400;
+    font-size: 13px;
+    text-align: end;
+}
+
+
+.billing_card_h6{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.billing_card_h3{
+    font-size: 20px;
+}
+
+.disabled{
+    color: lightgrey;
+}
+
+
+@media screen and (max-width:768px) {
+    .billing_card_h3{
+        font-size: 14px;
+    }
+    
+}
